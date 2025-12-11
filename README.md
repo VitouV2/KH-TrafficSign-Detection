@@ -5,7 +5,7 @@ This repository contains the code and weights for a custom-trained YOLOv8 object
 
 * **Task:** Object Detection
 * **Model:** YOLOv8s (or whichever base model you used)
-* **Dataset:** [Insert link to your dataset if it's public, otherwise state its origin]
+* **Dataset:** [(https://github.com/VitouV2/Khmer-Traffic-sign)]
 * **Best Model Weights:** [`runs/detect/traffic_sign_detector/weights/best.pt`](./runs/detect/traffic_sign_detector/weights/best.pt)
 
 ## 🚀 Usage
@@ -34,6 +34,9 @@ This repository contains the code and weights for a custom-trained YOLOv8 object
 ### 2. Running the Trained Model (Prediction)
 
 You can run the model on images, video files, or a live webcam feed using the Ultralytics CLI.
+Run Predict.py for live cam
+or vdo_test.py for Video
+and evaluate.py for test image
 
 #### A. On a Single Image/Video
 
