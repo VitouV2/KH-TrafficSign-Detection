@@ -1,0 +1,25 @@
+# Content of data.yaml
+path: D:\V2_KH_TrafficSign_Detection  # The root directory of your dataset
+train: D:\V2_KH_TrafficSign_Detection\train\images       # Path to training images
+val: D:\V2_KH_TrafficSign_Detection\valid\images          # Path to validation images
+
+# Number of classes
+nc: 15                     # The total number of unique signs you labeled
+
+# Class names in the exact order (0, 1, 2, ...)
+names:
+  0: Cross Road
+  1: Keep Right
+  2: Left Road
+  3: Max Speed 40
+  4: No Entry
+  5: No Parking
+  6: No Turn Left
+  7: No Turn Right
+  8: No U Turn
+  9: Pedestrian Crossing
+  10: Road Junction on The Left
+  11: Road Junction on The Right
+  12: Slow Down
+  13: Stop
+  14: Traffic Lights

@@ -1,0 +1,15 @@
+# Python Virtual Environment
+.venv/
+venv/
+
+# Training Runs (Exclude the final weights)
+runs/detect/
+!runs/detect/traffic_sign_detector/weights/best.pt
+
+# PyTorch/Cuda Files
+*.pt.data
+
+# Dataset 
+test/
+train/
+valid/
