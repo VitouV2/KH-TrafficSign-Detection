@@ -3,9 +3,9 @@
 ## 💡 Overview
 This repository contains the code and weights for a custom-trained YOLOv8 object detection model designed to identify specific traffic signs.
 
-* **Task:** Object Detection
-* **Model:** YOLOv8s (or whichever base model you used)
-* **Dataset:** [(https://github.com/VitouV2/Khmer-Traffic-sign)]
+* **Task:** Khmer Traffic Sign Detection
+* **Model:** YOLOv8s 
+* **Dataset:** https://github.com/VitouV2/Khmer-Traffic-sign
 * **Best Model Weights:** [`runs/detect/traffic_sign_detector/weights/best.pt`](./runs/detect/traffic_sign_detector/weights/best.pt)
 
 ## 🚀 Usage
