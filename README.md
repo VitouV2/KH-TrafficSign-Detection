@@ -14,7 +14,7 @@ This repository contains the code and weights for a custom-trained YOLOv8 object
 
 1.  **Clone the repository:**
     ```bash
-    git clone YOUR_HTTPS_URL_HERE
+    git clone https://github.com/VitouV2/KH-TrafficSign-Detection.git
     cd KH-TrafficSign-Detection
     ```
 
