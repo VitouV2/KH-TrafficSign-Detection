@@ -7,7 +7,7 @@ This repository contains the code and weights for a custom-trained YOLOv8 object
 * **Model:** YOLOv8n (trained on custom dataset)
 * **Dataset:** [Khmer-Traffic-sign](https://github.com/VitouV2/Khmer-Traffic-sign)
 * **Best Model Weights:** [`runs/detect/traffic_sign_detector/weights/best.pt`](./runs/detect/traffic_sign_detector/weights/best.pt)
-* **Classes:** 15 traffic sign types (see [data.yaml](./data.yaml) for details)
+* **Classes:** 13 traffic sign types (see [data.yaml](./data.yaml) for details)
 
 ## 🚀 Usage
 
@@ -86,8 +86,8 @@ python train.py
 - `requirements.txt`: Python dependencies
 
 ## 📊 Model Performance
-- Trained for 50 epochs on custom dataset
-- Optimized for 15 Khmer traffic sign classes
+- Trained for 20-50 epochs on custom dataset
+- Optimized for 13 Khmer traffic sign classes
 - Best weights available for immediate use
 
 ## 🤝 Contributing
